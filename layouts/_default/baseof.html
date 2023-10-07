@@ -57,21 +57,7 @@
       </div>
     {{ end }}
 
-    <div class="container">
-      <div class="row">
-          <div class="col-md-8">
-              <!-- Left column content -->
-              {{ range where .Params.sections "position" "left" }}
-                  {{ partial (printf "blocks/%s.html" .block) . }}
-              {{ end }}
-          </div>
-          <div class="col-md-4">
-              <!-- Right column content -->
-              {{ range where .Params.sections "position" "right" }}
-                  {{ partial (printf "blocks/%s.html" .block) . }}
-              {{ end }}
-          </div>
-      </div>
+    
   </div>
   
   </div>
