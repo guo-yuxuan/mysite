@@ -126,6 +126,8 @@
     <div class="row  {{if not $block.content.title | or (eq $columns "1") }}justify-content-center{{end}}">
       {{ if eq $position "left" }}
     <div class="col-lg-8">
+      {{ if eq $position "middle" }}
+      <div class="col-lg-12">
 {{ else }}
     <div class="col-lg-4">
 {{ end }}
