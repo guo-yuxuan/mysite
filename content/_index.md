@@ -12,6 +12,7 @@ sections:
       username: admin
 sections:
   - block: portfolio
+    position: right
     id: projects
     content:
       title: Projects [点击这里](https://www.google.com)
@@ -58,7 +59,6 @@ sections:
       columns: '2'
       view: card
   - block: collection
-    position: right
     content:
       title: Recent Publications
       text: |-
