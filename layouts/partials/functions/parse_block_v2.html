@@ -134,7 +134,7 @@
 
     {{ if $block.content.title }}
       {{ if eq $columns "1" }}
-        <div class="section-heading col-12 mb-3 ">
+        <div class="section-heading col-12 mb-3">
           {{ with $block.content.title }}<h1 class="mb-0">{{ . | markdownify | emojify }}</h1>{{ end }}
           {{ with $block.content.subtitle }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
         </div>
