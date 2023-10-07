@@ -11,7 +11,8 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-
+<div class="col-12 col-lg-8">
+sections:
   - block: portfolio
     id: projects
     content:
@@ -134,4 +135,5 @@ sections:
           captcha: false
     design:
       columns: '2'
+  </div>
 ---
