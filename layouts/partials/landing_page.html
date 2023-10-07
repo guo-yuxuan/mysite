@@ -1,0 +1,30 @@
+{{/* Notify JS that this is a widget page */}}
+<!-- TODO: use data attribute on <body> instead if this is still required -->
+<span class="js-widget-page d-none"></span>
+
+
+
+<div class="row">
+  <!-- Left Column -->
+  <div class="col-md-6">
+    {{ range where .Params.sections "position" "eq" "left" }}
+      {{ partial "functions/parse_block_v2" (dict "page" $ "block" .) }}
+    {{ end }}
+  </div>
+
+  <!-- Right Column -->
+  <div class="col-md-6">
+    {{ range where .Params.sections "position" "eq" "right" }}
+      {{ partial "functions/parse_block_v2" (dict "page" $ "block" .) }}
+    {{ end }}
+  </div>
+</div>
+
+<!-- Middle Position (Full Width) -->
+{{ range where .Params.sections "position" "eq" "middle" }}
+  <div class="row">
+    <div class="col-12">
+      {{ partial "functions/parse_block_v2" (dict "page" $ "block" .) }}
+    </div>
+  </div>
+{{ end }}
