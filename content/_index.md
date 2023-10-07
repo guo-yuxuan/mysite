@@ -3,7 +3,7 @@
 title:
 date: 2022-10-24
 type: landing
-
+<div>
 sections:
   - block: about.biography
     id: about
@@ -11,6 +11,7 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+<div>
 <div class="col-12 col-lg-8">
 sections:
   - block: portfolio
@@ -136,4 +137,7 @@ sections:
     design:
       columns: '2'
   </div>
+  <div class="col-12 col-lg-4">
+   </div>
+
 ---
