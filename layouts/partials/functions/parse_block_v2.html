@@ -125,9 +125,9 @@
   {{if $use_cols}}
     <div class="row  {{if not $block.content.title | or (eq $columns "1") }}justify-content-center{{end}}">
       {{ if eq $position "left" }}
-    <div class="col-lg-8"></div>
+    <div class="col-lg-8">
 {{ else }}
-    <div class="col-lg-4"></div>
+    <div class="col-lg-4">
 {{ end }}
 
     {{ if $block.content.title }}
@@ -148,7 +148,7 @@
     {{ partial $block_path $widget_args }}
 
   {{if $use_cols}}
-
+</div> <!-- Closing the col div -->
 
     </div>
   {{end}}
