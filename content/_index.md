@@ -13,9 +13,8 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-sections:
   - block: portfolio
-    position: right
+    position: left
     id: projects
     content:
       title: Projects [点击这里](https://www.google.com)
