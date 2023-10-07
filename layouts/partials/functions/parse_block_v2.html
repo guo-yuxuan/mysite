@@ -126,11 +126,7 @@
     <div class="row  {{if not $block.content.title | or (eq $columns "1") }}justify-content-center{{end}}">
       {{ if eq $position "left" }}
     <div class="col-lg-8">
-{{ else }}
-    <div class="col-lg-4">
-{{ end }}
-
-    {{ if $block.content.title }}
+      {{ if $block.content.title }}
       {{ if eq $columns "1" }}
         <div class="section-heading col-12 mb-3 ">
           {{ with $block.content.title }}<h1 class="mb-0">{{ . | markdownify | emojify }}</h1>{{ end }}
@@ -148,7 +144,34 @@
     {{ partial $block_path $widget_args }}
 
   {{if $use_cols}}
-</div> <!-- Closing the col div -->
+
+
+    </div>
+{{ else }}
+    <div class="col-lg-4">
+      {{ if $block.content.title }}
+      {{ if eq $columns "1" }}
+        <div class="section-heading col-12 mb-3 ">
+          {{ with $block.content.title }}<h1 class="mb-0">{{ . | markdownify | emojify }}</h1>{{ end }}
+          {{ with $block.content.subtitle }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
+        </div>
+      {{else}}
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          {{ with $block.content.title }}<h1 class="mb-0">{{ . | markdownify | emojify }}</h1>{{ end }}
+          {{ with $block.content.subtitle }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
+        </div>
+      {{end}}
+    {{end}}
+  {{end}}
+
+    {{ partial $block_path $widget_args }}
+
+  {{if $use_cols}}
+
+
+    </div>
+{{ end }}
+
 
     </div>
   {{end}}
