@@ -1,0 +1,49 @@
+{{/* Notify JS that this is a widget page */}}
+<!-- TODO: use data attribute on <body> instead if this is still required -->
+<span class="js-widget-page d-none"></span>
+
+{{/* Load widget page */}}
+{{ $page := "" }}
+{{ $headless_bundle := "" }}
+{{ if .IsHome }}
+  {{ $page = "/home/index.md" }}
+  {{ $headless_bundle = site.GetPage $page }}
+  {{/* Check homepage exists */}}
+  {{ if not $headless_bundle }}
+    {{ warnf "Hugo cannot find a Widget Page at %s!" $page }}
+    {{/* ... (The rest of your error messages) ... */}}
+  {{ end }}
+{{ else }}
+  {{ $page = .File.Path }}
+  {{ $headless_bundle = site.GetPage $page }}
+  {{/* Check widget page exists. */}}
+  {{ if not $headless_bundle }}
+    {{ warnf "Hugo cannot find a Widget Page at %s!" $page }}
+    {{/* ... (The rest of your error messages) ... */}}
+  {{ end }}
+{{ end }}
+
+<div class="row">
+  <!-- Left Column -->
+  <div class="col-md-6">
+    {{ range where ($headless_bundle.Resources.ByType "page") ".Params.position" "eq" "left" }}
+      {{ partial "functions/parse_block_v1" (dict "page" $ "block" .) }}
+    {{ end }}
+  </div>
+
+  <!-- Right Column -->
+  <div class="col-md-6">
+    {{ range where ($headless_bundle.Resources.ByType "page") ".Params.position" "eq" "right" }}
+      {{ partial "functions/parse_block_v1" (dict "page" $ "block" .) }}
+    {{ end }}
+  </div>
+</div>
+
+<!-- Middle Position (Full Width) -->
+{{ range where ($headless_bundle.Resources.ByType "page") ".Params.position" "eq" "middle" }}
+  <div class="row">
+    <div class="col-12">
+      {{ partial "functions/parse_block_v1" (dict "page" $ "block" .) }}
+    </div>
+  </div>
+{{ end }}
