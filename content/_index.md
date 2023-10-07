@@ -7,7 +7,7 @@ type: landing
 
 sections:
   - block: about.biography
-    position: left
+    position: middle
     id: about
     content:
       title: Biography
