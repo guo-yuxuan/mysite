@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: Projects
 
 
 
@@ -10,7 +10,7 @@ sections:
     position: left
     id: projects
     content:
-      title: Projects [点击这里](https://www.google.com)
+      title: Projects 
       filters:
         folders:
           - project
