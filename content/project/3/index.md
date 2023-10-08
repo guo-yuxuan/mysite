@@ -9,6 +9,8 @@ featured: false
 links:
   - url: http://www.s2307954.edinburgh.domains/
     name: Link
+  - url: uploads/Report_Currency Design.pdf
+    name: Report
 image:
   filename: snipaste_2023-10-08_23-27-34.jpg
   focal_point: Smart
