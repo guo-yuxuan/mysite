@@ -17,8 +17,6 @@ This website features a fun platform for young learners to discover the basics o
 
 ![](snipaste_2023-10-08_17-25-23.jpg)
 
-![]()
-
 Upon logging in or signing up, young learners can access easy-to-understand information and practical activities to improve their financial literacy - covering topics such as saving, spending, and an introduction to world currencies. Additionally, they can also attempt fun educational quizzes to help reinforce the concepts they have learned.
 
 ![](snipaste_2023-10-08_17-34-19.jpg)
