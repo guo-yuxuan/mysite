@@ -10,7 +10,7 @@ tags:
 categories:
   - Others
 image:
-  filename: featured
+  filename: snipaste_2023-10-08_15-55-18.jpg
   focal_point: Smart
   preview_only: false
 ---
