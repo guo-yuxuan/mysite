@@ -1,8 +1,8 @@
 ---
 title: Echoes & Absences
 subtitle: Interactive Exhibition
-date: 2023-10-07T16:10:49.783Z
-summary: Interactive Exhibition
+date: 2023-04-22T16:10:49.783Z
+summary: Immersive Interactive Exhibition
 draft: false
 featured: false
 tags:
