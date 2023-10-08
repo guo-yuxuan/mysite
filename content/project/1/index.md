@@ -9,6 +9,10 @@ tags:
   - Others
 categories:
   - Others
+links:
+  - url: uploads/Report_Echoes & Absences.pdf
+    icon_pack: null
+    name: PDF
 image:
   filename: snipaste_2023-10-08_15-55-18.jpg
   focal_point: Smart
