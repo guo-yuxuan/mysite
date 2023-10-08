@@ -1,5 +1,6 @@
 ---
-title: "1"
+title: Echoes & Absences
+subtitle: Interactive Exhibition
 date: 2023-10-07T16:10:49.783Z
 draft: false
 featured: false
