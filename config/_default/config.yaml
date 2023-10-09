@@ -6,7 +6,6 @@
 title: Academic # Website name
 baseURL: 'https://example.com/' # Website URL
 
-googleAnalytics = "G-C8477LSCC7"**
 ############################
 ## LANGUAGE
 ############################
