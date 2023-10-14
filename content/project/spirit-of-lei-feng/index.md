@@ -6,7 +6,7 @@ summary: MR Exhibition
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: snipaste_2023-10-14_21-46-22.jpg
   focal_point: Smart
   preview_only: false
 ---
