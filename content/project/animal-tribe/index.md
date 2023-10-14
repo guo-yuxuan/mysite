@@ -2,6 +2,7 @@
 title: Animal Tribe
 subtitle: MR Experience
 date: 2023-10-14T06:26:58.110Z
+summary: MR Experience
 draft: false
 featured: false
 image:
