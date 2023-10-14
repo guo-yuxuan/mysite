@@ -16,4 +16,4 @@ image:
 
 ![](portfolio-guoyuxuan_09.png)
 
-{{< video src=".mp4" controls="yes" >}}
+{{< video src="zodiac.mp4" controls="yes" >}}
