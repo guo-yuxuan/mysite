@@ -10,6 +10,8 @@ image:
   focal_point: Smart
   preview_only: true
 ---
+{{< video src="mr-animal-tribe.mp4" controls="yes" >}}
+
 ![](portfolio-guoyuxuan_12.png)
 
 ![](portfolio-guoyuxuan_13.png)
