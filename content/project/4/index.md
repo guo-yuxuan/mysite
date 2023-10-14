@@ -1,7 +1,7 @@
 ---
 title: Zodiac
 subtitle: 2D Horizontal Game
-date: 2023-10-07T16:11:35.472Z
+date: 2020-12-25T16:11:35.472Z
 summary: 2D Horizontal Game
 draft: false
 featured: false
@@ -10,8 +10,10 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-![](snipaste_2023-10-09_11-20-28.jpg)
+![](portfolio-guoyuxuan_07.png)
 
-![](snipaste_2023-10-09_11-20-52.jpg)
+![](portfolio-guoyuxuan_08.png)
 
-![](snipaste_2023-10-09_11-21-23.jpg)
+![](portfolio-guoyuxuan_09.png)
+
+{{< video src=".mp4" controls="yes" >}}
