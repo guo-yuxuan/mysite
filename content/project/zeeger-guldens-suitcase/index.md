@@ -1,7 +1,7 @@
 ---
 title: Zeeger Gulden's suitcase
 subtitle: Interactive Media
-date: 2023-10-14T05:42:12.508Z
+date: 2022-12-20T05:42:12.508Z
 summary: Interactive Media
 draft: false
 featured: false
