@@ -14,5 +14,3 @@ image:
   preview_only: true
 ---
 This project constructs a desktop exhibition set against a virtual background by establishing models and creating 2D content. It showcases the trade stories of Southeast Asia 50 years ago through the luggage of a businessman from that time.
-
-{{< video src="https://media.ed.ac.uk/id/1_o81j173v" controls="yes" >}}
