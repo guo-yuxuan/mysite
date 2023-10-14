@@ -5,9 +5,9 @@ date: 2023-10-14T06:26:58.110Z
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: portfolio-guoyuxuan_11.png
   focal_point: Smart
-  preview_only: false
+  preview_only: true
 ---
 ![](portfolio-guoyuxuan_12.png)
 
