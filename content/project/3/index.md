@@ -1,7 +1,7 @@
 ---
 title: Currency Design
 subtitle: Digital Design
-date: 2023-10-07T16:11:25.721Z
+date: 2022-12-11T16:11:25.721Z
 summary: In the context of regional integration and global warming, a regional
   currency designed from a child's perspective.
 draft: false
