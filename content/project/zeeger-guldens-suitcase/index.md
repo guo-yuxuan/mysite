@@ -5,6 +5,9 @@ date: 2022-12-20T05:42:12.508Z
 summary: Interactive Media
 draft: false
 featured: false
+links:
+  - url: uploads/suitcase_report.pdf
+    name: Report
 image:
   filename: snipaste_2023-10-14_14-25-35.jpg
   focal_point: Smart
