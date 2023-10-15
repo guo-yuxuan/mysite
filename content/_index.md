@@ -13,7 +13,6 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: portfolio
-    position: left
     id: projects
     content:
       title: Projects [点击这里](project/)
