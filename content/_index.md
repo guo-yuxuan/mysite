@@ -42,7 +42,10 @@ sections:
       flip_alt_rows: false 
       spacing:
          # Customize the section spacing. Order is top, right, bottom, left.
-        padding: ["20px", "50px", "20px", "0"]
+        padding: ["0", "50%", "0", "0"]
+      background:
+    # Choose a color such as from https://html-color-codes.info
+    color: '#FFFFFF'
   
 
 ---
