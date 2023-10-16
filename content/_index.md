@@ -40,12 +40,6 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false 
-      spacing:
-         # Customize the section spacing. Order is top, right, bottom, left.
-        padding: ["0", "50%", "0", "0"]
-      background:
-    # Choose a color such as from https://html-color-codes.info
-    color: '#FFFFFF'
   
 
 ---
