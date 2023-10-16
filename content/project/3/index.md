@@ -6,6 +6,8 @@ summary: In the context of regional integration and global warming, a regional
   currency designed from a child's perspective.
 draft: false
 featured: false
+categories:
+  - design
 links:
   - url: http://www.s2307954.edinburgh.domains/
     name: Link
