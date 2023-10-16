@@ -12,7 +12,7 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: portfolio
+  - block: collection
     id: projects
     content:
       title: Projects 
@@ -20,6 +20,8 @@ sections:
         folders:
           - project
         featured_only: true
+      archive:
+        enable: true
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
