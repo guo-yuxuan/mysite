@@ -21,6 +21,8 @@ sections:
         folders:
           - project
         featured_only: true
+      archive:
+        enable: true
       # # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       # default_button_index: 0
       # # Filter toolbar (optional).
@@ -41,7 +43,6 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false 
-      archive:
-        enable: true
+      
 
 ---
