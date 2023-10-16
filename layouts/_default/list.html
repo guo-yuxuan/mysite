@@ -3,6 +3,17 @@
 {{ partial "page_header.html" . }}
 
 <div class="universal-wrapper">
+  <div class=article-metadata>
+    <span class=article-categories>
+      <i class="fas fa-folder mr-1"></i>
+      <a href=/category/others/>Others</a>
+    </span>
+    <span class=middot-divider></span>
+    <span class=article-categories>
+      <i class="fas fa-folder mr-1"></i>
+      <a href=/category/others/>Others</a>
+    </span>
+  </div>
   {{ with .Content }}
     <div class="article-style">{{ . }}</div>
   {{ end }}
