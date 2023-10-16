@@ -37,9 +37,12 @@ sections:
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      view: compact
+      view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false 
+      spacing:
+         # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ["20px", "50px", "20px", "0"]
   
 
 ---
