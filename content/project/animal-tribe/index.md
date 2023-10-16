@@ -4,7 +4,7 @@ subtitle: MR Experience
 date: 2021-06-15T06:26:58.110Z
 summary: MR Experience
 draft: false
-featured: false
+featured: true
 categories:
   - XR
 image:
