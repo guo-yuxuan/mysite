@@ -15,7 +15,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects [点击这里](project/)
+      title: Projects [(Full List)](project/)
       filters:
         folders:
           - project
