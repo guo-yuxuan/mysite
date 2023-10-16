@@ -15,7 +15,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects [(Full List)](project/)
+      title: Projects 
       count: 5
       filters:
         folders:
