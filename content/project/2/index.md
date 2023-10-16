@@ -4,7 +4,9 @@ subtitle: Dynamic Web Design
 date: 2023-04-11T16:11:15.546Z
 summary: Dynamic Web Design
 draft: false
-featured: false
+featured: true
+categories:
+  - web
 links:
   - url: https://purplejam.s2307954.edinburgh.domains/fatfree/submission2/
     name: Link

@@ -4,7 +4,7 @@ subtitle: Interactive Exhibition
 date: 2023-04-22T16:10:49.783Z
 summary: Immersive Interactive Exhibition
 draft: false
-featured: false
+featured: true
 tags:
   - Others
 categories:

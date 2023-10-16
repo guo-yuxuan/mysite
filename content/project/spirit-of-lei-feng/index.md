@@ -4,7 +4,9 @@ subtitle: MR Exhibition
 date: 2022-05-10T13:44:04.613Z
 summary: MR Exhibition
 draft: false
-featured: false
+featured: true
+categories:
+  - XR
 image:
   filename: snipaste_2023-10-14_21-46-22.jpg
   focal_point: Smart

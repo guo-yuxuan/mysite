@@ -6,7 +6,7 @@ date: 2023-10-07T16:11:47.657Z
 summary: "Data-Driven Storytelling and Historical Heritage: A Virtual Reality
   Experience of the Silk Road"
 draft: false
-featured: false
+featured: true
 links:
   - url: uploads/Guo_Yuxuan_Dissertation.pdf
     name: Dissertation
