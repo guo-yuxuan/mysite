@@ -21,6 +21,7 @@ sections:
         folders:
           - project
         featured_only: true
+        category: "XR"
       archive:
         enable: true
       # # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
