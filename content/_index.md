@@ -16,6 +16,7 @@ sections:
     id: projects
     content:
       title: Projects [(Full List)](project/)
+      count: 5
       filters:
         folders:
           - project
@@ -40,6 +41,7 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false 
-  
+      archive:
+        enable: true
 
 ---
