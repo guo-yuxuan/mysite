@@ -16,15 +16,10 @@ sections:
     id: projects
     content:
       title: Projects 
-      count: 5
       filters:
         folders:
           - project
         featured_only: true
-        category: "XR"
-      archive:
-        enable: true
-        
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
