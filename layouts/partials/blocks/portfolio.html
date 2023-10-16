@@ -11,6 +11,14 @@
 {{/* Require Isotope */}}
 {{ $page.Page.Store.Set "has_isotope" true }}
 
+{{ if $block.content.filters.featured_only }}
+  {{ $query = where $query "Params.featured" "==" true }}
+{{ end }}
+{{ if $block.content.filters.exclude_featured }}
+  {{ $query = where $query "Params.featured" "!=" true }}
+{{ end }}
+
+
 <div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
 
   {{ with $block.content.text }}{{ . | $page.RenderString | emojify }}{{ end }}
