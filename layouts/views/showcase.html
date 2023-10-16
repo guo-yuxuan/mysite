@@ -56,7 +56,7 @@
       {{ $resource := partial "functions/get_featured_image.html" $item }}
 
       {{ with $resource }}
-        {{ $image := .Resize "240x webp" }}
+        {{ $image := .Resize "180x webp" }}
         {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
           <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
               alt="{{ $item.Title }}" loading="lazy">
