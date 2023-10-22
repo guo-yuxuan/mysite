@@ -1,18 +1,15 @@
 ---
 title: Yuxuan Guo
 role: null
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
-interests:
-  - yuxuanguo@msn.com
+bio: yuxuanguo@msn.com
+interests: []
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: yuxuanguo@msn.com
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
-organizations: []
+organizations:
+  - name: yuxuanguo@msn.com
+    url: ""
 education:
   courses: []
 superuser: true
