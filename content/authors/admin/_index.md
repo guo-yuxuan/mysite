@@ -4,15 +4,12 @@ role: null
 bio: yuxuanguo@msn.com
 interests: []
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: yuxuanguo@msn.com
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
 organizations:
   - name: yuxuanguo@msn.com
-    url: "mailto: yuxuanguo@msn.com"
+    url: ""
 education:
   courses: []
 superuser: true
