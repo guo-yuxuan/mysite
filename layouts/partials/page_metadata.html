@@ -15,12 +15,12 @@
 
   {{ if not (in (slice "event" "page") $page.Type) | and (ne $page.Params.show_date false) }}
   <span class="article-date">
-    {{ $date := $page.date | time.Format site.Params.locale.date_format }}
+    {{ $date := $page.Date | time.Format site.Params.locale.date_format }}
     {{ if eq $page.Type "publication" }}
       {{ $date = $page.Date | time.Format (site.Params.publications.date_format | default "January, 2006") }}
     {{ else }}
-      {{ if ne $page.Params.date $page.Params.Date }}
-          {{ i18n "last_updated" }}
+      {{ if ne $page.Params.Date $page.Params.Date }}
+          {{ i18n "date" }}
       {{ end }}
     {{ end }}
     {{ $date }}
