@@ -20,5 +20,5 @@ highlight_name: true
 first_name: Yuxuan
 email: yuxuanguo@msn.com
 ---
-Hi, I am Guo Yuxuan. I have obtained a Master of Science degree in Design and Digital Media from the University of Edinburgh. My research interests are AR/VR/MR, human-computer interaction, and data visualization. I am currently seeking Ph.D. and research opportunities in these areas. If you need more information, please feel free to contact me.
+Hi, I am Yuxuan Guo. I have obtained a Master of Science degree in Design and Digital Media from the University of Edinburgh. My research interests are AR/VR/MR, human-computer interaction, and data visualization. I am currently seeking Ph.D. and research opportunities in these areas. If you need more information, please feel free to contact me.
 {style="text-align: justify;"}
