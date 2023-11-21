@@ -1,6 +1,6 @@
 ---
 title: Zeeger Gulden's suitcase
-subtitle: Interactive Media
+subtitle: Interactive Media & 3D modeling
 date: 2022-12-20T05:42:12.508Z
 summary: Interactive Media
 draft: false

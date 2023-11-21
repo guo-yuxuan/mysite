@@ -1,7 +1,6 @@
 ---
 title: Traverse the Silk Road
-subtitle: "Data-Driven Storytelling and Historical Heritage:  A Virtual Reality
-  Experience of the Silk Road"
+subtitle: Virtual Reality Experience
 date: 2023-08-19T16:11:47.657Z
 summary: "Data-Driven Storytelling and Historical Heritage: A Virtual Reality
   Experience of the Silk Road"

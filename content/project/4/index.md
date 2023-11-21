@@ -5,8 +5,7 @@ date: 2020-12-25T16:11:35.472Z
 summary: 2D Horizontal Game
 draft: false
 featured: false
-categories:
-  - game
+categories: []
 image:
   filename: snipaste_2023-10-09_11-18-58.jpg
   focal_point: Smart

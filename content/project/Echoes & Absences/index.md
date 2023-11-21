@@ -5,10 +5,8 @@ date: 2023-04-22T16:10:49.783Z
 summary: Immersive Interactive Exhibition
 draft: false
 featured: true
-tags:
-  - Others
-categories:
-  - Others
+tags: []
+categories: []
 links:
   - url: uploads/Report_Echoes & Absences.pdf
     icon_pack: null
